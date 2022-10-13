@@ -1,0 +1,23 @@
+@import "./base/variables";
+@import"./base/animation";
+*{
+   font-family: Museo Sans, sans-serif;
+}
+.containers {
+   max-width: 950px;
+   margin: 0 auto;
+} 
+@import "./block/promo";
+@import"./block/header";
+@import"./block/button";
+@import"./block/second";
+@import"./block/title";
+@import "./block/consultation";
+@import"./block/forms";
+@import"./block/carousel";
+@import"./block/catalog";
+@import"./block/reviews";
+@import"./block/footer";
+@import"./block/modal";
+@import"./block/pageup";
+@import"./base/media";

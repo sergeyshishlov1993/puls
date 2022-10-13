@@ -1,0 +1,29 @@
+.reviews {
+   width: 100%;
+   min-height: 950px;
+   padding-bottom: 50px ;
+   &__wrappers{
+      display: flex;
+      flex-direction: column;
+   }
+   &__wrapper {
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      img {
+         width: 90%;
+         height: 25%;
+         margin-top: 8%;
+      }
+   }
+   &__descr {
+      margin-left: 60px;
+      width:69%;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: #0D0D0D;
+   }
+
+}

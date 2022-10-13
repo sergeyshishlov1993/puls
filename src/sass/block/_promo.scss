@@ -1,0 +1,60 @@
+.promo{
+   min-height: 650px;
+   padding: 21px 0 93px 0;
+   background: url(../../img/first-scrin/bg/bg1.jpg) center (center / cover) no-repeat;
+   &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 90px;
+   }
+   &__header {
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 42px;
+      text-transform: uppercase;
+   }
+   &__subheader {
+      color: #FFFFFF;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 24px;
+      text-transform: uppercase;
+   }
+   &__icons {
+      margin-top: 65px;
+      width: 425px;
+      display: flex;
+      justify-content: space-between;
+   }
+   &__icon {
+      width: 106px;
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 500;
+      img {
+         display: block;
+         margin: 0 auto;
+         margin-bottom: 20px;
+      }
+   }
+   &__link {
+      margin-top: 18px;
+      width: 223px;
+      height: 25px; 
+      font-weight: 500;
+      font-size: 16px;
+      color: #FFFFFF;
+      a {
+         text-transform: uppercase;
+         text-decoration: underline;
+         color: #FFFFFF;
+         &:hover {
+            font-weight: 700;
+            color: black;
+         }
+      }
+   }
+}

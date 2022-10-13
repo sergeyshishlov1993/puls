@@ -1,0 +1,257 @@
+@media screen and (max-width: 991px) {
+   .header {
+      justify-content: space-around;
+   }
+   .promo {
+      &__wrapper {
+         align-items:center;
+      }
+      &__link {
+         margin-top: 35px;
+      }  
+   }
+   .second {
+      &__text {
+         width: 90%;
+      }
+   }  
+   .consultation {
+      .title_left {
+         font-size: 30px;
+         margin-left: 2%;
+      }
+      &__descr {
+         font-size: 17px;
+         margin-left: 2%;
+      }
+      .feed-form {
+         width: 41%;
+         margin-left: 2%;
+      }
+   } 
+   .carousel {
+      &__inner {
+         img {
+            width: 75%;
+            margin: 0 auto;
+         }
+      } 
+      .slick-dots {
+         display: flex;
+         justify-content: center;
+         list-style: none;
+         padding: 0;
+         li {
+            margin-left: 1%;
+            button {
+               height: 23px;
+               border-radius: 15px;
+               background-color: #ded8d8;;
+            }
+         }
+      }
+   }
+   .catalog {
+      &__tabs {
+         li {
+            width: 200px;
+            margin: 0 3px;
+         }     
+      }
+      &-item__content {
+         justify-content: space-evenly;
+      }
+   }
+   .footer {
+      &__info {
+         width: 50%;
+         height: 42%;
+      }
+      &__addr {
+         font-size: 18px;
+      }
+      &__phone {
+         font-size: 18px;
+      }
+   }
+}
+@media screen and (max-width: 767px) {
+   .header {
+     flex-direction: column;
+     align-items:center;
+     &__official {
+      margin-top: 3%;
+     }
+     &__contact {
+      margin-top: 3%;
+     }
+   }
+   .promo {
+      &__wrapper {
+         align-items:center;
+      }
+      &__link {
+         margin-top: 35px;
+      }  
+   }
+   .second {
+      &__text {
+         width: 87%;
+      }
+   }
+   .consultation {
+      .title_left {
+         font-size: 24px;
+      }
+      .feed-form {
+         width: 50%;
+      }
+   } 
+   .catalog {
+      &__tabs {
+         li {
+            width: 30%;
+         }
+      }
+      &-item {
+         width: 100%;
+      }
+   }
+   .footer {
+      &__info {
+         width: 60%;
+      }
+      &__addr {
+         font-size: 15px;
+      }
+      &__phone {
+         font-size: 15px;
+      }
+      &__social-item {
+         margin-right: 3%;
+         img {
+            height: 50%;
+         }
+      }
+   }
+}
+@media screen and (max-width: 575px){
+   .header {
+      flex-direction: column;
+      align-items:center;
+      &__official {
+         font-size: 14px;
+         margin-top: 2%;
+      }
+      &__phone {
+         margin-bottom: 4%;
+      }
+      &__contact {
+         margin-top: 5%;
+         margin-bottom: 4%;
+      }
+   }
+   .promo {
+      &__header {
+         font-size: 24px;
+         line-height: 0;
+      }
+      &__subheader {
+         font-size: 14px;
+         line-height: 24px;
+      }
+      &__icons {
+         width: 100%;
+         justify-content: space-evenly;
+         align-items:center;
+      }
+      &__link {
+         font-size: 14px;
+      }
+   }
+   .second {
+      &__wrapper {
+         flex-direction: column;
+      }
+      &__icons {
+         margin-top: 5%;
+      }
+      .title {
+         font-size: 24px;
+      }
+   }
+   .consultation {
+      .title_left {
+         font-size: 18px;
+         text-align: center;
+      }
+      &__descr {
+         font-size: 15px;
+         text-align: center;
+      }
+      .feed-form {
+         width: 77%;
+         margin: 0 auto;
+         margin-top: 30px;
+      }
+   } 
+   .catalog {
+      &__tabs {
+         flex-direction: column;
+         li {
+            width: 70%;
+            margin-bottom: 2%;
+         }
+      }
+   }
+  .reviews {
+      &__wrapper{
+      flex-direction: column;
+      align-items:center;
+   }
+      &__descr {
+         h2 {
+            text-align: center;
+         }
+         margin: 0 auto;
+         width: 95%;
+         line-height: 20px;
+      }
+   .title {
+      font-size: 28px ;
+   }
+  }
+  .footer {
+   &__info {
+      width: 100%;
+      height: 32%;
+   }
+   &__addr {
+      font-size: 14px;
+      margin-bottom: 20px;
+   }
+   &__phone {
+      margin-bottom: 20px;
+   }
+  }
+  .modal {
+   padding: 20px 20px;
+   min-height: 300px;
+   width: 80%;
+   &__close {
+      right: -20px;
+   }
+   .feed-form_mt25 {
+      width: 100%;
+      align-items:center;
+      input {
+         width: 90%;
+      }
+      .button_submit {
+         width: 90%;
+      }
+   }
+  }
+}
+   
+   
