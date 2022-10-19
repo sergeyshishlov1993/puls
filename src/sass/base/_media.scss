@@ -61,6 +61,27 @@
       &-item__content {
          justify-content: space-evenly;
       }
+      &-item__subtitle {
+         font-size: 15px;
+      }
+      &-item__descr {
+         width: 90%;
+         font-size: 13px;
+      }
+      &-item__list {
+         li {
+            font-size: 13px;
+         }
+      }
+      &-item__old-prices {
+         font-size: 12px;
+      }
+      &-item__new-prices {
+         font-size: 16px;
+      }
+      .button_mini {
+         width: 50%;
+      }
    }
    .footer {
       &__info {
@@ -73,6 +94,14 @@
       &__phone {
          font-size: 18px;
       }
+   }
+   .overlay {
+      .modal {
+         width: 30%;
+      }
+   }
+   .feed-form {
+      width: 100%;
    }
 }
 @media screen and (max-width: 767px) {
@@ -95,16 +124,25 @@
       }  
    }
    .second {
+      &__icons {
+         h2 {
+            font-size: 15px;
+         }
+      }
       &__text {
          width: 87%;
+         font-size: 12px;
       }
    }
    .consultation {
       .title_left {
          font-size: 24px;
       }
+      #consultation-form {
+         width: 75%;
+      }
       .feed-form {
-         width: 50%;
+         width: 100%;   
       }
    } 
    .catalog {
@@ -115,6 +153,9 @@
       }
       &-item {
          width: 100%;
+      }
+      .button_mini {
+         width: 20%;
       }
    }
    .footer {
@@ -132,6 +173,11 @@
          img {
             height: 50%;
          }
+      }
+   }
+   .overlay {
+      .modal {
+         width: 40%;
       }
    }
 }
@@ -168,6 +214,11 @@
       &__link {
          font-size: 14px;
       }
+      .button_main {
+         width: 60%;
+         font-size: 12px;
+         height: 45px;
+      }
    }
    .second {
       &__wrapper {
@@ -193,6 +244,9 @@
          width: 77%;
          margin: 0 auto;
          margin-top: 30px;
+         .button_submit {
+            font-size: 14px;
+         }
       }
    } 
    .catalog {
@@ -202,6 +256,9 @@
             width: 70%;
             margin-bottom: 2%;
          }
+      }
+      .button_mini {
+         width: 35%;
       }
    }
   .reviews {
@@ -215,7 +272,8 @@
          }
          margin: 0 auto;
          width: 95%;
-         line-height: 20px;
+         line-height: 22px;
+         font-size: 14px;
       }
    .title {
       font-size: 28px ;
@@ -223,8 +281,7 @@
   }
   .footer {
    &__info {
-      width: 100%;
-      height: 32%;
+      height: 15%;
    }
    &__addr {
       font-size: 14px;
@@ -233,24 +290,41 @@
    &__phone {
       margin-bottom: 20px;
    }
+   &__social-item {
+      width: 35px;
+      height: 35px;
+   }
   }
-  .modal {
-   padding: 20px 20px;
-   min-height: 300px;
-   width: 80%;
-   &__close {
-      right: -20px;
-   }
-   .feed-form_mt25 {
-      width: 100%;
-      align-items:center;
-      input {
-         width: 90%;
+  .overlay {
+   .modal {
+      padding: 20px 20px;
+      min-height: 300px;
+      width: 65%;
+      &__subtitle {
+         font-size: 12px;
       }
-      .button_submit {
-         width: 90%;
+      &__descr {
+         font-size: 12px;
       }
-   }
+      &__close {
+         right: -20px;
+      }
+      .feed-form_mt25 {
+         width: 100%;
+         align-items:center;
+         input {
+            width: 75%;
+         }
+         .button_submit {
+            width: 90%;
+            font-size: 12px;
+         }
+      }
+     }
+  }
+  
+  .pageup {
+   right: 10px;
   }
 }
    
