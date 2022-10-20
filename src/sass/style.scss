@@ -1,7 +1,13 @@
+@import "./libs/animate";
+@import "./libs/fonts";
+@import "./libs/slick";
 @import "./base/variables";
 @import"./base/animation";
-*{
+body{
    font-family: Museo Sans, sans-serif;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
 .containers {
    max-width: 950px;
